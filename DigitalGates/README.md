@@ -26,7 +26,7 @@ Logic gates are used to implement Boolean functions in digital electronics. Each
 ## **Basic Logic Gates**
 
 ### **AND Gate**
-- **Boolean Expression**: \( Y = A \cdot B \)
+- **Boolean Expression**: \( Y = A AND B)
 - **Logic Operation**: Produces HIGH (1) only if all inputs are HIGH (1).
 
 | A | B | Y = A AND B |
@@ -39,7 +39,7 @@ Logic gates are used to implement Boolean functions in digital electronics. Each
 ---
 
 ### **OR Gate**
-- **Boolean Expression**: \( Y = A + B \)
+- **Boolean Expression**: ( Y = A + B )
 - **Logic Operation**: Produces HIGH (1) if at least one input is HIGH (1).
 
 | A | B | Y = A OR B |
@@ -52,7 +52,7 @@ Logic gates are used to implement Boolean functions in digital electronics. Each
 ---
 
 ### **NOT Gate**
-- **Boolean Expression**: \( Y = \overline{A} \)
+- **Boolean Expression**: ( Y = not A)
 - **Logic Operation**: Inverts the input value.
 
 | A | Y = NOT A |
@@ -65,7 +65,7 @@ Logic gates are used to implement Boolean functions in digital electronics. Each
 ## **Universal Gates**
 
 ### **NAND Gate**
-- **Boolean Expression**: \( Y = \overline{A \cdot B} \)
+- **Boolean Expression**: ( Y = A NAND B)
 - **Logic Operation**: Produces LOW (0) only when all inputs are HIGH (1).
 
 | A | B | Y = NAND |
@@ -78,7 +78,7 @@ Logic gates are used to implement Boolean functions in digital electronics. Each
 ---
 
 ### **NOR Gate**
-- **Boolean Expression**: \( Y = \overline{A + B} \)
+- **Boolean Expression**: ( Y = A NOR B)
 - **Logic Operation**: Produces HIGH (1) only when all inputs are LOW (0).
 
 | A | B | Y = NOR |
@@ -93,7 +93,7 @@ Logic gates are used to implement Boolean functions in digital electronics. Each
 ## **Exclusive Gates**
 
 ### **XOR Gate**
-- **Boolean Expression**: \( Y = A \oplus B = \overline{A}B + A\overline{B} \)
+- **Boolean Expression**: ( Y = A XOR B)
 - **Logic Operation**: Produces HIGH (1) when the inputs are different.
 
 | A | B | Y = XOR |
@@ -106,7 +106,7 @@ Logic gates are used to implement Boolean functions in digital electronics. Each
 ---
 
 ### **XNOR Gate**
-- **Boolean Expression**: \( Y = \overline{A \oplus B} \)
+- **Boolean Expression**: ( Y = A XNOR B)
 - **Logic Operation**: Produces HIGH (1) when the inputs are the same.
 
 | A | B | Y = XNOR |
