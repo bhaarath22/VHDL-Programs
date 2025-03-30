@@ -31,7 +31,8 @@ A 1-to-4 demultiplexer takes one input and directs it to one of four outputs bas
   y1 = Input AND NOT S1 AND S0  
   y2 = Input AND S1 AND NOT S0  
   y3 = Input AND S1 AND S0
-
+## circuit
+![ckt](DeMux2-4-SM.png)
 - **Truth Table:**
 
 | S1 | S0 | y0  | y1  | y2  | y3  |
