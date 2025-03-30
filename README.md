@@ -124,12 +124,25 @@ VHDL is a powerful hardware description language used to model digital systems a
 ## **Data Objects in VHDL**
 A **data object** is a storage element that holds a value. VHDL provides four types of data objects:
 
-| Data Object | Description | Example |
-|-------------|------------|---------|
-| **Constant** | Fixed value, cannot change | `constant PI : real := 3.14;` |
-| **Variable** | Temporary storage inside processes | `variable count : integer := 0;` |
-| **Signal** | Represents hardware connections | `signal clk : std_logic := '0';` |
-| **File** | Reads/Writes data to a file | `file my_file : text;` |
+- **Constant**: Holds a fixed value that cannot change during simulation. Example:
+  ```vhdl
+  constant PI : real := 3.14;
+  ```
+
+- **Variable**: Stores temporary data and can be updated within a process, function, or procedure. Example:
+  ```vhdl
+  variable count : integer := 0;
+  ```
+
+- **Signal**: Represents a hardware connection and can be assigned values concurrently. Example:
+  ```vhdl
+  signal clk : std_logic := '0';
+  ```
+
+- **File**: Used to read and write data to external files. Example:
+  ```vhdl
+  file my_file : text;
+  ```
 
 ---
 
@@ -190,4 +203,5 @@ VHDL supports various **data types**, categorized as follows:
 
 ## **Conclusion**
 VHDL provides powerful constructs for hardware description at multiple levels, including behavioral, dataflow, and structural modeling. Understanding its **data objects, data types, and execution models** is crucial for efficient design and simulation.
+
 
