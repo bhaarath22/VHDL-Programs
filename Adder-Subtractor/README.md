@@ -60,7 +60,8 @@ Arithmetic operations like addition and subtraction are implemented using logic 
 | 1 | 1 | 1 | 1 | 1 |
 
 - **Explanation**: The full adder extends the functionality of the half adder by handling an additional carry input, making it useful for multi-bit addition.
-
+### Output
+![output](FA-BM-Case.png)
 ---
 
 ## **Subtractors**
