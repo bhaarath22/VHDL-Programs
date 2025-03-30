@@ -106,10 +106,4 @@ Arithmetic operations like addition and subtraction are implemented using logic 
 ![output](FS-DF-SSA.png)
 ---
 
-## **Conclusion**
-
-Adders and subtractors are crucial components of digital circuits. The **half adder and half subtractor** handle simple operations, whereas the **full adder and full subtractor** manage carry and borrow operations for multi-bit calculations.
-
-
-
 
