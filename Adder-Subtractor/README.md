@@ -12,9 +12,8 @@ Arithmetic circuits are a crucial part of digital systems and perform basic oper
 - [Subtractors](#subtractors)
   - [Half Subtractor](#half-subtractor)
   - [Full Subtractor](#full-subtractor)
-- [Conclusion](#conclusion)
 
---
+---
 ## **Introduction**
 
 Arithmetic operations like addition and subtraction are implemented using logic circuits called **adders and subtractors**. These circuits process binary inputs and produce binary outputs, playing a crucial role in digital computing.
