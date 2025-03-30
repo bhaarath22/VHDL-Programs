@@ -1,4 +1,13 @@
 # **Multiplexer Demultiplexer Encoder Decoder**
+## **Table of Contents**
+
+- [Multiplexer](#multiplexer)  
+- [Demultiplexer](#Demultiplexer)  
+- [4-to-2 Encoder](#4-to-2-encoder)  
+- [4-to-2 Priority Encoder](#4-to-2-priority-encoder)  
+- [2-to-4 Decoder](#2-to-4-decoder)  
+
+
 
 ## Multiplexer
 A multiplexer is a combinational circuit that selects one input from multiple inputs and forwards it to the output based on the selector signals.
@@ -20,6 +29,7 @@ A 4-to-1 multiplexer takes four inputs and selects one based on two selector sig
 |  1 |  1 | D |
 ## output 
 ![out](Mux4-1-DF-CSA.png)
+---
 ## Demultiplexer
 A demultiplexer is a combinational circuit that takes a single input and distributes it to one of the multiple outputs based on the selector signals.
 
@@ -65,7 +75,7 @@ A 4-to-2 encoder converts four input lines into a 2-bit binary output.
 
 ## output
 ![out](Encoder4to2-DF.png)
-
+---
 ## 4-to-2 Priority Encoder
 A priority encoder assigns priority to the highest-order input when multiple inputs are active.
 
@@ -86,6 +96,7 @@ A 4-to-2 priority encoder ensures that the highest-priority input is encoded whe
 |  1 | X  | X  |  X |  1 |  1 |
 ## Output
 ![out](PEncoder4-2-BM.png)
+---
 ## 2-to-4 Decoder
 A decoder is a combinational circuit that converts binary input into a unique active output.
 
