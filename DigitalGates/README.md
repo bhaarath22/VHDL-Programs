@@ -3,7 +3,7 @@
 Logical gates are the fundamental building blocks of digital circuits. They perform logical operations on one or more binary inputs to produce a single binary output.
 
 ## **Table of Contents**
-- [Introductio](#introduction)
+- [Introduction](#introductio)
 - [Basic Logic Gates](#basic-logic-gates)
   - [AND Gate](#and-gate)
   - [OR Gate](#or-gate)
