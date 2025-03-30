@@ -201,8 +201,5 @@ VHDL supports various **data types**, categorized as follows:
 
 ---
 
-## **Conclusion**
-VHDL provides powerful constructs for hardware description at multiple levels, including behavioral, dataflow, and structural modeling. Understanding its **data objects, data types, and execution models** is crucial for efficient design and simulation.
-
 
 
