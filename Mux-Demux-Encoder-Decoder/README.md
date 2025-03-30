@@ -40,7 +40,8 @@ A 1-to-4 demultiplexer takes one input and directs it to one of four outputs bas
 |  0 |  1 | 0  | Input | 0  | 0  |
 |  1 |  0 | 0  | 0  | Input | 0  |
 |  1 |  1 | 0  | 0  | 0  | Input |
-
+## Output
+![output](DEmux2-4-SM-op.png)
 ## 4-to-2 Encoder
 An encoder is a combinational circuit that converts multiple active inputs into a binary code.
 
