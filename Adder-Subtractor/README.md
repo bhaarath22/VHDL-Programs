@@ -80,7 +80,8 @@ Arithmetic operations like addition and subtraction are implemented using logic 
 | 1 | 1 | 0 | 0 |
 
 - **Explanation**: The difference is calculated using XOR, and the borrow is needed when the minuend (A) is smaller than the subtrahend (B).
-
+### Output
+![output](HS-DF-CAS.png)
 ---
 
 ### **Full Subtractor**
