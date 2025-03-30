@@ -117,5 +117,6 @@ Logic gates are used to implement Boolean functions in digital electronics. Each
 | 1 | 1 | 1 |
 
 ---
-
+### **OUTPUT***
+![output Logical gates](DigitalGates/DGOutput.png)
 
