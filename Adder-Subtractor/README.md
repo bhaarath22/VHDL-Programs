@@ -102,7 +102,8 @@ Arithmetic operations like addition and subtraction are implemented using logic 
 | 1 | 1 | 1 | 1 | 1 |
 
 - **Explanation**: The full subtractor extends the half subtractor by handling an additional borrow input, making it useful for multi-bit subtraction.
-
+### Output
+![output](FS-DF-SSA.png)
 ---
 
 ## **Conclusion**
