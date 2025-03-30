@@ -5,9 +5,9 @@ VHDL is a powerful hardware description language used to model digital systems a
 ## **Table of Contents**
 - [Entity and Architecture](#entity-and-architecture)
 - [Modeling Styles in VHDL](#modeling-styles-in-vhdl)
-  - [Data Flow Modeling](#data-flow-modeling)
-  - [Behavioral Modeling](#behavioral-modeling)
-  - [Structural Modeling](#structural-modeling)
+  - [Data Flow Modeling](#1-data-flow-modeling)
+  - [Behavioral Modeling](#2-behavioral-modeling)
+  - [Structural Modeling](#3-structural-modeling)
 - [Sequential and Concurrent Statements](#sequential-and-concurrent-statements)
   - [Sequential Statements](#sequential-statements)
   - [Concurrent Statements](#concurrent-statements)
@@ -203,5 +203,6 @@ VHDL supports various **data types**, categorized as follows:
 
 ## **Conclusion**
 VHDL provides powerful constructs for hardware description at multiple levels, including behavioral, dataflow, and structural modeling. Understanding its **data objects, data types, and execution models** is crucial for efficient design and simulation.
+
 
 
