@@ -37,6 +37,8 @@ Arithmetic operations like addition and subtraction are implemented using logic 
 | 1 | 1 | 0 | 1 |
 
 - **Explanation**: The sum output is derived using XOR, ensuring that when inputs are different, the sum is `1`. The carry is generated only when both inputs are `1`.
+### Output
+![OUTPUT](HA-BM-if-else.png)
 
 ---
 
