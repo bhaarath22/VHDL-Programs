@@ -18,7 +18,8 @@ A 4-to-1 multiplexer takes four inputs and selects one based on two selector sig
 |  0 |  1 | B |
 |  1 |  0 | C |
 |  1 |  1 | D |
-
+## output 
+![out](Mux4-1-DF-CSA.png)
 ## Demultiplexer
 A demultiplexer is a combinational circuit that takes a single input and distributes it to one of the multiple outputs based on the selector signals.
 
@@ -46,7 +47,6 @@ A 1-to-4 demultiplexer takes one input and directs it to one of four outputs bas
 ## 4-to-2 Encoder
 An encoder is a combinational circuit that converts multiple active inputs into a binary code.
 
-### 4-to-2 Encoder
 A 4-to-2 encoder converts four input lines into a 2-bit binary output.
 
 - **Boolean Expressions:**
@@ -63,10 +63,12 @@ A 4-to-2 encoder converts four input lines into a 2-bit binary output.
 |  0 |  1 |  0 |  0 |  1 |  0 |
 |  1 |  0 |  0 |  0 |  1 |  1 |
 
+## output
+![out](Encoder4to2-DF.png)
+
 ## 4-to-2 Priority Encoder
 A priority encoder assigns priority to the highest-order input when multiple inputs are active.
 
-### 4-to-2 Priority Encoder
 A 4-to-2 priority encoder ensures that the highest-priority input is encoded when multiple inputs are active.
 
 - **Boolean Expressions:**
@@ -82,11 +84,11 @@ A 4-to-2 priority encoder ensures that the highest-priority input is encoded whe
 |  0 |  0 |  1 |  X |  0 |  1 |
 |  0 |  1 | X  |  X |  1 |  0 |
 |  1 | X  | X  |  X |  1 |  1 |
-
+## Output
+![out](PEncoder4-2-BM.png)
 ## 2-to-4 Decoder
 A decoder is a combinational circuit that converts binary input into a unique active output.
 
-### 2-to-4 Decoder
 A 2-to-4 decoder takes a 2-bit binary input and activates one of four outputs.
 
 - **Boolean Expressions:**
@@ -95,7 +97,8 @@ A 2-to-4 decoder takes a 2-bit binary input and activates one of four outputs.
   y1 = NOT A1 AND A0  
   y2 = A1 AND NOT A0  
   y3 = A1 AND A0
-
+## circuit
+![ckt](Decoderckt.png)
 - **Truth Table:**
 
 | A1 | A0 | y0  | y1  | y2  | y3  |
@@ -104,6 +107,7 @@ A 2-to-4 decoder takes a 2-bit binary input and activates one of four outputs.
 |  0 |  1 |  0  |  1  |  0  |  0  |
 |  1 |  0 |  0  |  0  |  1  |  0  |
 |  1 |  1 |  0  |  0  |  0  |  1  |
-
+## output
+![out](Decoder2-4-SM.png)
 These circuits are essential components in digital systems, used for data selection, signal encoding, and binary decoding.
 
