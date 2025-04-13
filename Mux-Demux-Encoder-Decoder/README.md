@@ -12,7 +12,7 @@
 ## Multiplexer
 A multiplexer is a combinational circuit that selects one input from multiple inputs and forwards it to the output based on the selector signals.
 
-### 4-to-1 Multiplexer
+### 4-to-1 Multiplexer [code](https://github.com/bhaarath22/VHDL-Programs/blob/222b75be1bf680283fdccba375e69fc26cd3d287/Mux-Demux-Encoder-Decoder/Mux4to1ConditionalSA.vhdl)
 A 4-to-1 multiplexer takes four inputs and selects one based on two selector signals.
 
 - **Boolean Expression:**
@@ -33,7 +33,7 @@ A 4-to-1 multiplexer takes four inputs and selects one based on two selector sig
 ## Demultiplexer
 A demultiplexer is a combinational circuit that takes a single input and distributes it to one of the multiple outputs based on the selector signals.
 
-### 1-to-4 Demultiplexer
+### 1-to-4 Demultiplexer [code](https://github.com/bhaarath22/VHDL-Programs/blob/222b75be1bf680283fdccba375e69fc26cd3d287/Mux-Demux-Encoder-Decoder/DEMUX-1to4-StructuralModelling.vhdl)
 A 1-to-4 demultiplexer takes one input and directs it to one of four outputs based on two selector signals.
 
 - **Boolean Expressions:**
@@ -53,8 +53,9 @@ A 1-to-4 demultiplexer takes one input and directs it to one of four outputs bas
 |  1 |  0 | 0  | 0  | Input | 0  |
 |  1 |  1 | 0  | 0  | 0  | Input |
 ## Output
-![output](DEmux2-4-SM-op.png)
-## 4-to-2 Encoder
+![output](DEmux2-4-SM-op.png)  
+
+## 4-to-2 Encoder  [code](https://github.com/bhaarath22/VHDL-Programs/blob/222b75be1bf680283fdccba375e69fc26cd3d287/Mux-Demux-Encoder-Decoder/Encoder4to1-DataFlow.vhdl)
 An encoder is a combinational circuit that converts multiple active inputs into a binary code.
 
 A 4-to-2 encoder converts four input lines into a 2-bit binary output.
@@ -76,7 +77,7 @@ A 4-to-2 encoder converts four input lines into a 2-bit binary output.
 ## output
 ![out](Encoder4to2-DF.png)
 ---
-## 4-to-2 Priority Encoder
+## 4-to-2 Priority Encoder [code](https://github.com/bhaarath22/VHDL-Programs/blob/222b75be1bf680283fdccba375e69fc26cd3d287/Mux-Demux-Encoder-Decoder/PriorityEncoder4to2-BM-If-else.vhdl)
 A priority encoder assigns priority to the highest-order input when multiple inputs are active.
 
 A 4-to-2 priority encoder ensures that the highest-priority input is encoded when multiple inputs are active.
@@ -97,7 +98,7 @@ A 4-to-2 priority encoder ensures that the highest-priority input is encoded whe
 ## Output
 ![out](PEncoder4-2-BM.png)
 ---
-## 2-to-4 Decoder
+## 2-to-4 Decoder [code](https://github.com/bhaarath22/VHDL-Programs/blob/222b75be1bf680283fdccba375e69fc26cd3d287/Mux-Demux-Encoder-Decoder/Decoder2to4-Structural.vhdl)
 A decoder is a combinational circuit that converts binary input into a unique active output.
 
 A 2-to-4 decoder takes a 2-bit binary input and activates one of four outputs.
