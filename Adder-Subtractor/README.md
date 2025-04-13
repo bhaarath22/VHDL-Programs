@@ -41,7 +41,7 @@ Arithmetic operations like addition and subtraction are implemented using logic 
 
 ---
 
-### **Full Adder**
+### **Full Adder**  [code](https://github.com/bhaarath22/VHDL-Programs/blob/ed952d8fdf8447001dcf31167d41a971e7ae390d/Adder-Subtractor/FullAdder-BM-CASE.vhd)
 - **Definition**: A full adder adds **three inputs** (A, B, and Carry-in) and produces a sum and a carry output.
 - **Boolean Expressions**:
   - Sum (S) = A XOR B XOR Carry-in
