@@ -23,7 +23,7 @@ Logic gates are used to implement Boolean functions in digital electronics. Each
 
 ---
 
-## **Basic Logic Gates**
+## **Basic Logic Gates** [code](https://github.com/bhaarath22/VHDL-Programs/blob/9e4baeb5b740efd41c3048f0d1526f2a4bfb9b7f/DigitalGates/DFM_DG.vhd)
 
 ### **AND Gate**
 - **Boolean Expression**: \( Y = A AND B)
