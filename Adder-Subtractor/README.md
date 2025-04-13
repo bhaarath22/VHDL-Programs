@@ -22,7 +22,7 @@ Arithmetic operations like addition and subtraction are implemented using logic 
 
 ## **Adders**
 
-### **Half Adder**
+### **Half Adder**  [code](https://github.com/bhaarath22/VHDL-Programs/blob/6e4d67fc54d7b492cd394fabb48560b5911e019d/Adder-Subtractor/HalfAdder-BM-if-else.vhdl)
 - **Definition**: A half adder adds two **single-bit binary numbers** and produces a sum and a carry output.
 - **Boolean Expressions**:
   - Sum (S) = A XOR B
@@ -65,7 +65,7 @@ Arithmetic operations like addition and subtraction are implemented using logic 
 
 ## **Subtractors**
 
-### **Half Subtractor**
+### **Half Subtractor** [code](https://github.com/bhaarath22/VHDL-Programs/blob/6e4d67fc54d7b492cd394fabb48560b5911e019d/Adder-Subtractor/HS-DM-ConditionalSAS.vhd)
 - **Definition**: A half subtractor subtracts one **single-bit binary number** from another and produces a difference and a borrow output.
 - **Boolean Expressions**:
   - Difference (D) = A XOR B
@@ -83,7 +83,7 @@ Arithmetic operations like addition and subtraction are implemented using logic 
 ![output](HS-DF-CAS.png)
 ---
 
-### **Full Subtractor**
+### **Full Subtractor**  [code](https://github.com/bhaarath22/VHDL-Programs/blob/6e4d67fc54d7b492cd394fabb48560b5911e019d/Adder-Subtractor/FS-DF-SelectedSiganlAssignment.vhdl)
 - **Definition**: A full subtractor subtracts **three inputs** (A, B, and Borrow-in) and produces a difference and a borrow output.
 - **Boolean Expressions**:
   - Difference (D) = A XOR B XOR Borrow-in
